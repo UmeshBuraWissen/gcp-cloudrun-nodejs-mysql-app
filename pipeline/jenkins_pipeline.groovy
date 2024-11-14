@@ -10,8 +10,7 @@ pipeline {
         GCR_HOST = 'gcr.io'                         // Change to 'us.gcr.io', 'eu.gcr.io', or 'asia.gcr.io' as needed
         DOCKERFILE_PATH = './gcp_nodejs_app/Dockerfile' // Path to your Dockerfile
         CONTEXT_PATH = './gcp_nodejs_app/'            // Path to the Docker build context
-        // GIT_REPO_URL = 'https://github.com/anitamaharana55/NodeJsApplicationGcp.git' // Replace with your Git repository URL
-        GIT_REPO_URL = 'https://github.com/UmeshBuraWissen/gcp-cloudrun-nodejs-mysql-app.git'
+        GIT_REPO_URL = 'https://github.com/anitamaharana55/NodeJsApplicationGcp.git' // Replace with your Git repository URL
         GIT_CREDENTIALS_ID = 'git-credentials-id'    // Jenkins credential ID for Git (if needed)
     }
     stages {
